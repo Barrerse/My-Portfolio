@@ -21,16 +21,32 @@ header {
 }
 
 /** just the name **/
-.sebas {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    text-align: right;
-    width: 315px;
-}
-
 header h1 {
-    font-weight: bold;
-    margin: 0 2% 0 0;
+    margin: 0%;
     font-size: 36px;
-    text-align: right;
 }
 
+/** NAVIGATION BAR **/
+header nav {
+    margin: 0%;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
+}
+
+header nav ul li a {
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+header nav ul li a:hover {
+    background:azure;
+    border-radius: 15px;
+    text-shadow: none;
+}
