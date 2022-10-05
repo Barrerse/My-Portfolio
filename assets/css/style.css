@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+/** HEADER STYLING **/
+header {
+    padding: 20px;
+    bbackground: #87CEEB;
+    background: -moz-linear-gradient(top, #87CEEB 0%, #669BB1 100%);
+    background: -webkit-linear-gradient(top, #87CEEB 0%, #669BB1 100%);
+    background: linear-gradient(to bottom, #87CEEB 0%, #669BB1 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/** just the name **/
+.sebas {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    text-align: right;
+    width: 315px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin: 0 2% 0 0;
+    font-size: 36px;
+    text-align: right;
+}
+
