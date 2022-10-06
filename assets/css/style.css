@@ -55,3 +55,73 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
 }
+
+/** HERO IMAGE AND TEXT **/
+
+.hero {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.hero-text {
+    border: 3px solid #024e76;
+    background: #bdac84;
+    background: -moz-linear-gradient(top, #bdac84 0%, #C59237 100%, #C59237 100%);
+    background: -webkit-linear-gradient(top, #bdac84 0%, #C59237 100%, #C59237 100%);
+    background: linear-gradient(to bottom, #bdac84 0%, #C59237 100%, #C59237 100%);
+    padding: 20px;
+    width: 25%;
+    height: 15%;
+    margin: 0 3.5% 3.5% 0;
+    text-align: center;
+    font-size: medium;   
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.hero img {
+    width: 25%;
+    margin: 3.5% 3.5% 0 0;
+}
+
+/** SECTION SEPARATORS **/
+
+
+
+
+
+
+/** MEDIA FOR DIFFERENT DEVICES **//
+
+@media screen and (max-width: 768px) {
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .bio {
+        margin: 0 10px ;
+    }
+    .section-title {
+        font-size: 22px;
+        margin: 0 auto 10px auto;
+    }
+    .hero-subtitle {
+        font-size: 16px;
+        padding: 5px;
+    }
+}
