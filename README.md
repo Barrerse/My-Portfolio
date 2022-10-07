@@ -46,7 +46,7 @@ All credits go to the [Univertisy of Miami Bootcamp](https://bootcamp.miami.edu/
 
 ## Link to Website
 
-You can see the website [here](PENDING)
+You can see the website [here](https://barrerse.github.io/My-Portfolio/)
 
-![Image of Website](PENDING)
+![image](https://user-images.githubusercontent.com/108836644/194586415-717059d8-ab98-47ac-ac52-fc837352f03c.png)
 
