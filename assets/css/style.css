@@ -98,10 +98,40 @@ header nav ul li a:hover {
     margin: 3.5% 3.5% 0 0;
 }
 
-/** SECTIONS**/
+/** SECTIONS TITLES & FLEX DIVIDERS**/
 
+.flex-row {
+    display: flex;
+}
 
+.section-title {
+    font-size: 48px;
+    color: var(--secondary-color);
+    padding: 0 20px 20px 0;
+    text-align: right;
+    width: 200px;
+}
 
+.section-group {
+    display: flex;
+    margin: 50px 50px;
+}
+
+.primary-border {
+    border-right: 4px solid;
+    border-color: var(--secondary-color);
+}
+
+/** ABOUT ME SECTION **/
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 50px;  
+    width: 90%;
+    align-items: center;
+  }
 
 
 
@@ -125,4 +155,5 @@ header nav ul li a:hover {
         padding: 5px;
     }
 }
+
 
