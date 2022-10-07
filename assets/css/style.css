@@ -106,7 +106,6 @@ header nav ul li a:hover {
 
 .section-title {
     font-size: 48px;
-    color: var(--secondary-color);
     padding: 0 20px 20px 0;
     text-align: right;
     width: 200px;
@@ -119,10 +118,9 @@ header nav ul li a:hover {
 
 .primary-border {
     border-right: 4px solid;
-    border-color: var(--secondary-color);
 }
 
-/** ABOUT ME SECTION **/
+/** MAIN SECTIONS **/
 
 .about{
     display: flex;
@@ -133,7 +131,131 @@ header nav ul li a:hover {
     align-items: center;
   }
 
+.mainsection{
+    margin: 0 50px;
+    
+}
 
+/** USING GRIDS (https://css-tricks.com/snippets/css/complete-guide-grid/) **/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 35px;
+}
+
+.item-1 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.item-2 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+.box {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+.boxsm {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+.imgbx img {
+    max-height: 100%;
+    transition: 0.5s;
+}
+
+.box:hover .imgbx img {
+    opacity: 0.5;
+}
+.boxsm:hover .imgbx img {
+    opacity: 0.5;
+}
+
+.card-text {
+    background: lightblue;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-text h3 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card-text p {
+    font-size: 20px;
+}
+/** FOOTER **/
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+    font-size: 30px;
+}
+.bio-conatct {
+    margin: auto;
+    font-size: 30px;
+}
+.bio nav {
+    margin: 7px 0;
+}
+
+.bio nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.bio nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-decoration: none;
+}
+
+.bio nav ul li a:hover {
+    text-shadow: rebeccapurple;
+}
 
 /** MEDIA FOR DIFFERENT DEVICES **//
 
