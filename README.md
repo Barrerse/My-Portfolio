@@ -13,31 +13,35 @@ N/A
 
 Made the wesbite more accessible with the following acceptance criteria
 
->GIVEN I need to sample a potential employee's previous work  
+>GIVEN I need a new, secure password
 
->WHEN I load their portfolio
+>WHEN I click the button to generate a password
 
->THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+>THEN I am presented with a series of prompts for password criteria
 
->WHEN I click one of the links in the navigation
+>WHEN prompted for password criteria
 
->THEN the UI scrolls to the corresponding section
+>THEN I select which criteria to include in the password
 
->WHEN I click on the link to the section about their work
+>WHEN prompted for the length of the password
 
->THEN the UI scrolls to a section with titled images of the developer's applications
+>THEN I choose a length of at least 8 characters and no more than 128 characters
 
->WHEN I am presented with the developer's first application
+>WHEN asked for character types to include in the password
 
->THEN that application's image should be larger in size than the others
+>THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
 
->WHEN I click on the images of the applications
+>WHEN I answer each prompt
 
->THEN I am taken to that deployed application
+>THEN my input should be validated and at least one character type should be selected
 
->WHEN I resize the page or view the site on various screens and devices
+>WHEN all prompts are answered
 
->THEN I am presented with a responsive layout that adapts to my viewport
+>THEN a password is generated that matches the selected criteria
+
+>WHEN the password is generated
+
+>THEN the password is either displayed in an alert or written to the page
 
 
 ## Credits
@@ -48,5 +52,5 @@ All credits go to the [Univertisy of Miami Bootcamp](https://bootcamp.miami.edu/
 
 You can see the website [here](https://barrerse.github.io/My-Portfolio/)
 
-![image](https://user-images.githubusercontent.com/108836644/194586415-717059d8-ab98-47ac-ac52-fc837352f03c.png)
+
 
