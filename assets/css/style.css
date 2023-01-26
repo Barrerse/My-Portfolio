@@ -138,7 +138,7 @@ header nav ul li a:hover {
 
 /** USING GRIDS (https://css-tricks.com/snippets/css/complete-guide-grid/) **/
 
-.grid-container {
+/* .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
@@ -220,7 +220,27 @@ header nav ul li a:hover {
 
 .card-text p {
     font-size: 20px;
+} */
+
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-auto-flow: dense;
 }
+
+.box, .boxsm {
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+
 /** FOOTER **/
 
 .contact {
